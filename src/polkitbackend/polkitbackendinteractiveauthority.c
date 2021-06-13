@@ -3264,7 +3264,7 @@ temporary_authorization_store_add_authorization (TemporaryAuthorizationStore *st
     }
 
   /* TODO: right now the time the temporary authorization is kept is hard-coded - we
-   *       could make it a propery on the PolkitBackendInteractiveAuthority class (so
+   *       could make it a property on the PolkitBackendInteractiveAuthority class (so
    *       the local authority could read it from a config file) or a vfunc
    *       (so the local authority could read it from an annotation on the action).
    */
