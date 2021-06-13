@@ -863,7 +863,7 @@ David Zeuthen (65):
       docs: update SEE ALSO to make each man page point to all other man pages
       Clarify docs a bit
       polkitd: add reference to polkit(8) from its man page
-      Fix speling
+      Fix spelling
       Fix a couple typos in the docs
       Mention details["polkit.message"] and add an example using details
       Use <variablelist> instead of <informaltable> for Subject attributes
