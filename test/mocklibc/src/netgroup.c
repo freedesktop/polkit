@@ -72,7 +72,7 @@ static char *parser_copy_word(char **cur) {
 }
 
 /**
- * Print a varaible indentation to the stream.
+ * Print a variable indentation to the stream.
  * @param stream Stream to print to
  * @param indent Number of indents to use
  */
