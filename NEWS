@@ -25,7 +25,7 @@ Changes since polkit 0.118:
  Inigo Martinez:
     meson build system added alongside autotools (many thanks!!)
 
- Matthias Classen:
+ Matthias Clasen:
     properties in text listener
 
  René Genz:
