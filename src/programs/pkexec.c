@@ -526,7 +526,7 @@ main (int argc, char *argv[])
     }
 
   /* First process options and find the command-line to invoke. Avoid using fancy library routines
-   * that depend on environtment variables since we haven't cleared the environment just yet.
+   * that depend on environment variables since we haven't cleared the environment just yet.
    */
   opt_show_help = FALSE;
   opt_show_version = FALSE;
