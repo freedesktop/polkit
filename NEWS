@@ -25,7 +25,7 @@ Changes since polkit 0.118:
  Inigo Martinez:
     meson build system added alongside autotools (many thanks!!)
 
- Matthias Classen:
+ Matthias Clasen:
     properties in text listener
 
  René Genz:
@@ -863,7 +863,7 @@ David Zeuthen (65):
       docs: update SEE ALSO to make each man page point to all other man pages
       Clarify docs a bit
       polkitd: add reference to polkit(8) from its man page
-      Fix speling
+      Fix spelling
       Fix a couple typos in the docs
       Mention details["polkit.message"] and add an example using details
       Use <variablelist> instead of <informaltable> for Subject attributes
@@ -997,7 +997,7 @@ Build requirements
 
 IMPORTANT: As of release 0.103, the default Authority backend now
 defaults to allowing members of the 'wheel' group to authenticate as
-an administator since this is common usage in popular Linux
+an administrator since this is common usage in popular Linux
 distributions. Distributors can change this by patching the
 50-localauthority.conf file in /etc/polkit-1/localauthority.conf.d as
 needed.
@@ -1045,7 +1045,7 @@ Changes since PolicyKit 0.101:
  David Zeuthen (7):
        Post-release version bump to 0.102
        Don't show diagnostic messages intended for the administrator to the end u
-       PolkitUnixProcess: Clarify that the real uid is returned, not the effectiv
+       PolkitUnixProcess: Clarify that the real uid is returned, not the effective
        Make PolkitUnixProcess also record the uid of the process
        Use polkit_unix_process_get_uid() to get the owner of a process
        pkexec: Avoid TOCTTOU problems with parent process
@@ -1366,7 +1366,7 @@ David Zeuthen (20):
       Clarify when AllowUserInteraction should and shouldn't be used
       Add methods AddLockdownForAction() and RemoveLockdownForAction()
       Port lockdown from pklalockdown(1) to D-Bus methods
-      Drop ununsed policykit actions
+      Drop unused policykit actions
       Remove TODO about symbol visibility as this has been fixed for a while
       Clarify pklocalauthority(8) man page
       Properly validate all arguments passed via D-Bus

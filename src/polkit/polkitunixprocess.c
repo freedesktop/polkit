@@ -49,7 +49,7 @@
 /**
  * SECTION:polkitunixprocess
  * @title: PolkitUnixProcess
- * @short_description: Unix processs
+ * @short_description: Unix processes
  *
  * An object for representing a UNIX process.  NOTE: This object as
  * designed is now known broken; a mechanism to exploit a delay in

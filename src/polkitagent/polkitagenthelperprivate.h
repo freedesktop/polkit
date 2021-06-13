@@ -17,7 +17,7 @@
  * Boston, MA 02110-1301, USA.
  *
  * Authors: David Zeuthen <davidz@redhat.com>,
- *          Andrew Psaltis <ampsalits@gmail.com>
+ *          Andrew Psaltis <ampsaltis@gmail.com>
  */
 #ifndef __POLKIT_AGENT_HELPER_PRIVATE_H
 #define __POLKIT_AGENT_HELPER_PRIVATE_H

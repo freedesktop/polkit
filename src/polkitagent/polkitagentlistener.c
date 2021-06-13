@@ -763,7 +763,7 @@ polkit_agent_listener_class_init (PolkitAgentListenerClass *klass)
  * polkit_agent_listener_initiate_authentication_finish() to get the
  * result.
  *
- * #PolkitAgentListener derived subclasses imlementing this method
+ * #PolkitAgentListener derived subclasses implementing this method
  * <emphasis>MUST</emphasis> not ignore @cancellable; callers of this
  * function can and will use it. Additionally, @callback must be
  * invoked in the <link

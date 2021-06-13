@@ -68,7 +68,7 @@
  * @stability: Unstable
  *
  * An implementation of #PolkitBackendAuthority that reads and
- * evalates Javascript files and supports interaction with
+ * evaluates Javascript files and supports interaction with
  * authentication agents (virtue of being based on
  * #PolkitBackendInteractiveAuthority).
  */

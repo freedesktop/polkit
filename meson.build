@@ -154,7 +154,7 @@ setnetgrent_return_src = '''
 
 config_h.set('HAVE_SETNETGRENT_RETURN', cc.compiles(setnetgrent_return_src, name: 'setnetgrent return support'))
 
-# Select wether to use libsystemd-login, libelogind or ConsoleKit for session tracking
+# Select whether to use libsystemd-login, libelogind or ConsoleKit for session tracking
 session_tracking = get_option('session_tracking')
 enable_logind = (session_tracking != 'ConsoleKit')
 if enable_logind
@@ -353,7 +353,7 @@ output += '        polkitd user:             ' + polkitd_user + ' \n'
 output += '        PAM support:              ' + enable_pam.to_string() + '\n\n'
 if enable_pam
   output += '        PAM file auth:            ' + pam_conf['PAM_FILE_INCLUDE_AUTH'] + '\n'
-  output += '        PAM file acount:          ' + pam_conf['PAM_FILE_INCLUDE_ACCOUNT'] + '\n'
+  output += '        PAM file account:         ' + pam_conf['PAM_FILE_INCLUDE_ACCOUNT'] + '\n'
   output += '        PAM file password:        ' + pam_conf['PAM_FILE_INCLUDE_PASSWORD'] + '\n'
   output += '        PAM file session:         ' + pam_conf['PAM_FILE_INCLUDE_SESSION'] + '\n\n'
 endif

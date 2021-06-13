@@ -3129,7 +3129,7 @@ on_expiration_timeout (gpointer user_data)
   gchar *s;
 
   s = polkit_subject_to_string (authorization->subject);
-  g_debug ("Removing tempoary authorization with id `%s' for action-id `%s' for subject `%s': "
+  g_debug ("Removing temporary authorization with id `%s' for action-id `%s' for subject `%s': "
            "authorization has expired",
            authorization->id,
            authorization->action_id,
@@ -3168,7 +3168,7 @@ on_unix_process_check_vanished_timeout (gpointer user_data)
           gchar *s;
 
           s = polkit_subject_to_string (authorization->subject);
-          g_debug ("Removing tempoary authorization with id `%s' for action-id `%s' for subject `%s': "
+          g_debug ("Removing temporary authorization with id `%s' for action-id `%s' for subject `%s': "
                    "subject has vanished",
                    authorization->id,
                    authorization->action_id,
@@ -3209,7 +3209,7 @@ temporary_authorization_store_remove_authorizations_for_system_bus_name (Tempora
 
 
       s = polkit_subject_to_string (ta->subject);
-      g_debug ("Removing tempoary authorization with id `%s' for action-id `%s' for subject `%s': "
+      g_debug ("Removing temporary authorization with id `%s' for action-id `%s' for subject `%s': "
                "subject has vanished",
                ta->id,
                ta->action_id,
@@ -3264,7 +3264,7 @@ temporary_authorization_store_add_authorization (TemporaryAuthorizationStore *st
     }
 
   /* TODO: right now the time the temporary authorization is kept is hard-coded - we
-   *       could make it a propery on the PolkitBackendInteractiveAuthority class (so
+   *       could make it a property on the PolkitBackendInteractiveAuthority class (so
    *       the local authority could read it from a config file) or a vfunc
    *       (so the local authority could read it from an annotation on the action).
    */

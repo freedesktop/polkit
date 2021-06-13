@@ -1719,7 +1719,7 @@ polkit_authority_enumerate_temporary_authorizations_finish (PolkitAuthority *aut
  * @cancellable: (allow-none): A #GCancellable or %NULL.
  * @error: (allow-none): Return location for error or %NULL.
  *
- * Synchronousky gets all temporary authorizations for @subject.
+ * Synchronously gets all temporary authorizations for @subject.
  *
  * The calling thread is blocked until a reply is received. See
  * polkit_authority_enumerate_temporary_authorizations() for the

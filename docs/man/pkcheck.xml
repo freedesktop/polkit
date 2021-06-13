@@ -89,7 +89,7 @@
 
   </refsynopsisdiv>
 
-  <refsect1 id="pkcheck-descsription">
+  <refsect1 id="pkcheck-description">
     <title>DESCRIPTION</title>
     <para>
       <command>pkcheck</command> is used to check whether a process, specified by

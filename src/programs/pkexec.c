@@ -415,7 +415,7 @@ validate_environment_variable (const gchar *key,
            strstr (value, "..") != NULL)
     {
       log_message (LOG_CRIT, TRUE,
-                   "The value for environment variable %s contains suscipious content",
+                   "The value for environment variable %s contains suspicious content",
                    key);
       g_printerr ("\n"
                   "This incident has been reported.\n");
@@ -526,7 +526,7 @@ main (int argc, char *argv[])
     }
 
   /* First process options and find the command-line to invoke. Avoid using fancy library routines
-   * that depend on environtment variables since we haven't cleared the environment just yet.
+   * that depend on environment variables since we haven't cleared the environment just yet.
    */
   opt_show_help = FALSE;
   opt_show_version = FALSE;
@@ -920,7 +920,7 @@ main (int argc, char *argv[])
   /* set close_on_exec on all file descriptors except stdin, stdout, stderr */
   if (!fdwalk (set_close_on_exec, GINT_TO_POINTER (3)))
     {
-      g_printerr ("Error setting close-on-exec for file desriptors\n");
+      g_printerr ("Error setting close-on-exec for file descriptors\n");
       goto out;
     }
 
