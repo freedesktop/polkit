@@ -43,10 +43,10 @@
  * a method on the PolicyKit daemon (see polkit_authority_authentication_agent_response_sync())
  * with the given @cookie. Upon receiving a positive response from the PolicyKit daemon (via
  * the authentication helper), the #PolkitAgentSession::completed signal will be emitted
- * with the @gained_authorization paramter set to %TRUE.
+ * with the @gained_authorization parameter set to %TRUE.
  *
  * If the user is unable to authenticate, the #PolkitAgentSession::completed signal will
- * be emitted with the @gained_authorization paramter set to %FALSE.
+ * be emitted with the @gained_authorization parameter set to %FALSE.
  */
 
 #include "config.h"
