@@ -247,7 +247,7 @@ polkit_action_description_get_icon_name (PolkitActionDescription *action_descrip
  *
  * Get the value of the annotation with @key.
  *
- * Returns: (allow-none): %NULL if there is no annoation with @key,
+ * Returns: (allow-none): %NULL if there is no annotation with @key,
  * otherwise the annotation value owned by @action_description. Do not
  * free.
  */
