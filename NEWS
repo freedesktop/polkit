@@ -1366,7 +1366,7 @@ David Zeuthen (20):
       Clarify when AllowUserInteraction should and shouldn't be used
       Add methods AddLockdownForAction() and RemoveLockdownForAction()
       Port lockdown from pklalockdown(1) to D-Bus methods
-      Drop ununsed policykit actions
+      Drop unused policykit actions
       Remove TODO about symbol visibility as this has been fixed for a while
       Clarify pklocalauthority(8) man page
       Properly validate all arguments passed via D-Bus
