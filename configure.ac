@@ -130,7 +130,7 @@ AC_ARG_ENABLE([test],
 AM_CONDITIONAL(BUILD_TEST, [test "x$enable_test" = "xyes"])
 
 dnl ---------------------------------------------------------------------------
-dnl - Select wether to use libsystemd-login, libelogind or ConsoleKit for session tracking
+dnl - Select whether to use libsystemd-login, libelogind or ConsoleKit for session tracking
 dnl ---------------------------------------------------------------------------
 
 have_libsystemd=no

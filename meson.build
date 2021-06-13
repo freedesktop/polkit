@@ -154,7 +154,7 @@ setnetgrent_return_src = '''
 
 config_h.set('HAVE_SETNETGRENT_RETURN', cc.compiles(setnetgrent_return_src, name: 'setnetgrent return support'))
 
-# Select wether to use libsystemd-login, libelogind or ConsoleKit for session tracking
+# Select whether to use libsystemd-login, libelogind or ConsoleKit for session tracking
 session_tracking = get_option('session_tracking')
 enable_logind = (session_tracking != 'ConsoleKit')
 if enable_logind
