@@ -415,7 +415,7 @@ validate_environment_variable (const gchar *key,
            strstr (value, "..") != NULL)
     {
       log_message (LOG_CRIT, TRUE,
-                   "The value for environment variable %s contains suscipious content",
+                   "The value for environment variable %s contains suspicious content",
                    key);
       g_printerr ("\n"
                   "This incident has been reported.\n");
