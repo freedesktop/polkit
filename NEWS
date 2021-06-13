@@ -1045,7 +1045,7 @@ Changes since PolicyKit 0.101:
  David Zeuthen (7):
        Post-release version bump to 0.102
        Don't show diagnostic messages intended for the administrator to the end u
-       PolkitUnixProcess: Clarify that the real uid is returned, not the effectiv
+       PolkitUnixProcess: Clarify that the real uid is returned, not the effective
        Make PolkitUnixProcess also record the uid of the process
        Use polkit_unix_process_get_uid() to get the owner of a process
        pkexec: Avoid TOCTTOU problems with parent process
