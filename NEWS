@@ -997,7 +997,7 @@ Build requirements
 
 IMPORTANT: As of release 0.103, the default Authority backend now
 defaults to allowing members of the 'wheel' group to authenticate as
-an administator since this is common usage in popular Linux
+an administrator since this is common usage in popular Linux
 distributions. Distributors can change this by patching the
 50-localauthority.conf file in /etc/polkit-1/localauthority.conf.d as
 needed.
