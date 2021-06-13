@@ -740,7 +740,7 @@ RegisterAuthenticationAgentWithOptions (IN  <link linkend="eggdbus-struct-Subjec
                                         IN  Dict&lt;String,Variant&gt;     options)
     </programlisting>
     <para>
-<para>Like <link linkend="eggdbus-method-org.freedesktop.PolicyKit1.Authority.RegisterAuthenticationAgent">RegisterAuthenticationAgent</link> but takes additional options. If the option <literal>fallback</literal> (of type <literal>Boolean</literal>) is TRUE, then the authentcation agent will only be used as a fallback, e.g. if another agent (without the <literal>fallback</literal> option set TRUE) is available, it will be used instead.</para>
+<para>Like <link linkend="eggdbus-method-org.freedesktop.PolicyKit1.Authority.RegisterAuthenticationAgent">RegisterAuthenticationAgent</link> but takes additional options. If the option <literal>fallback</literal> (of type <literal>Boolean</literal>) is TRUE, then the authentication agent will only be used as a fallback, e.g. if another agent (without the <literal>fallback</literal> option set TRUE) is available, it will be used instead.</para>
     </para>
     </refsect2>
 
