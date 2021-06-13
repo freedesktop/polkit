@@ -353,7 +353,7 @@ output += '        polkitd user:             ' + polkitd_user + ' \n'
 output += '        PAM support:              ' + enable_pam.to_string() + '\n\n'
 if enable_pam
   output += '        PAM file auth:            ' + pam_conf['PAM_FILE_INCLUDE_AUTH'] + '\n'
-  output += '        PAM file acount:          ' + pam_conf['PAM_FILE_INCLUDE_ACCOUNT'] + '\n'
+  output += '        PAM file account:         ' + pam_conf['PAM_FILE_INCLUDE_ACCOUNT'] + '\n'
   output += '        PAM file password:        ' + pam_conf['PAM_FILE_INCLUDE_PASSWORD'] + '\n'
   output += '        PAM file session:         ' + pam_conf['PAM_FILE_INCLUDE_SESSION'] + '\n\n'
 endif
